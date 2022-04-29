@@ -1,5 +1,6 @@
 @import './components/Header/header';
 @import './components/Footer/footer';
+@import './components/Main/Main';
 
 body {
    margin: 0;
@@ -10,11 +11,6 @@ body {
    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-}
 
-.test {
-   background-color: aquamarine;
-}
+
+
