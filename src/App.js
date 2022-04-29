@@ -7,7 +7,7 @@ function App() {
          <Header />
          <div>
             <div className="App">
-               <div className="test">Main</div>
+               <div className="test">Main test git push</div>
             </div>
          </div>
          <Footer />
