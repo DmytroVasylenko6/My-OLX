@@ -46,7 +46,9 @@ export default function Main() {
 					<div className='main-content'>
 						<div className='product'>
 							<div className='product-card'>
+								{/* <div className='product-image'> */}
 								<img className='product-image' src={img3} alt="" />
+								{/* </div> */}
 								<div className='product-name-price'>
 									<p className='product-name'>Майка жіноча чорна</p>
 									<p className='product-price-on-sale'>
@@ -72,7 +74,9 @@ export default function Main() {
 								</div>
 							</div>
 							<div className='product-card'>
+								{/* <div className='product-image'> */}
 								<img className='product-image' src={img4} alt="" />
+								{/* </div> */}
 								<div className='product-name-price'>
 									<p className='product-name'>Автобус</p>
 									<p className='product-price-on-sale'>

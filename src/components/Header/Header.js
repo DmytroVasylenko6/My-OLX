@@ -1,7 +1,6 @@
 import React from 'react';
 import img from "../../img/search.svg"
 
-
 export default function Header() {
    return <header>
          <div className='header-all-width'>     
@@ -26,7 +25,6 @@ export default function Header() {
                <p className='header-menu-list'>Відпочинок і спорт</p>
                <p className='header-menu-list'>Віддам безкоштовно</p>
                <p className='header-menu-list'>Обмін</p>
-
                <span className='arrow'>&#8634;</span><p className='header-menu-clean'> Очистити фільтри</p>               
             </div>
          </div>
