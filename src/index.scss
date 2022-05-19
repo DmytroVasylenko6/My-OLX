@@ -1,5 +1,7 @@
 @import './components/Header/header';
 @import './components/Footer/footer';
+@import './components/Main/Main';
+@import './components/Search/search';
 
 body {
    margin: 0;
@@ -8,13 +10,11 @@ body {
       'Helvetica Neue', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+   // position: relative;
+   // z-index: 1;
 }
 
-code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-}
 
-.test {
-   background-color: aquamarine;
-}
+
+
+
