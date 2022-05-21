@@ -1,5 +1,14 @@
 @import './components/Header/header';
 @import './components/Footer/footer';
+@import './components/Main/Main';
+@import './components/Search/search';
+@import './components/Registration/registration';
+@import './components/Add/add';
+@import './components/Change/change';
+@import './components/Product/product';
+@import './components/Exit/exit';
+
+
 
 body {
    margin: 0;
@@ -8,13 +17,10 @@ body {
       'Helvetica Neue', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+   // box-sizing: border-box;
 }
 
-code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-}
 
-.test {
-   background-color: aquamarine;
-}
+
+
+
