@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-light/Roboto-Light.eot');
+    src: url('../../fonts/Roboto-light/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Roboto-light/Roboto-Light.woff2') format('woff2'),
+        url('../../fonts/Roboto-light/Roboto-Light.woff') format('woff'),
+        url('../../fonts/Roboto-light/Roboto-Light.ttf') format('truetype'),
+        url('../../fonts/Roboto-light/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-medium/Roboto-Medium.eot');
+    src: url('../../fonts/Roboto-medium/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Roboto-medium/Roboto-Medium.woff2') format('woff2'),
+        url('../../fonts/Roboto-medium/Roboto-Medium.woff') format('woff'),
+        url('../../fonts/Roboto-medium/Roboto-Medium.ttf') format('truetype'),
+        url('../../fonts/Roboto-medium/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-bold/Roboto-Bold.eot');
+    src: url('../../fonts/Roboto-bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Roboto-bold/Roboto-Bold.woff2') format('woff2'),
+        url('../../fonts/Roboto-bold/Roboto-Bold.woff') format('woff'),
+        url('../../fonts/Roboto-bold/Roboto-Bold.ttf') format('truetype'),
+        url('../../fonts/Roboto-bold/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.change-block {
+	display: none;
+}
+.change-opasity-all-width {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 100%;
+	height: 2160px;
+	position: absolute;
+	background: black;
+	opacity: 0.5;
+	top: 0;
+}
+.change-opasity {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+}
+.change-window {
+	width: 860px;
+	height: 730px;
+	position: absolute;
+	background: white;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 0 105px;
+	box-sizing: border-box;
+}
+.close-change-btn {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 14px;
+	padding: 5px;
+}
+.close-change-btn:hover {
+	width: 20px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+.change-ads-text {
+    margin: 50px 0 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+}
+.change-fields-with-names {
+	display: flex;
+	justify-content: space-between;
+}
+.change-names {
+    width: 180px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+}
+.change-names :nth-child(1) {
+    margin: 16px 0 0;
+}
+.change-names :nth-child(2) {
+    margin: 60px 0 0;
+}
+.change-names :nth-child(3) {
+    margin: 55px 0 0;
+}
+.change-names :nth-child(4) {
+    margin: 65px 0 0;
+}
+.change-names :nth-child(5) {
+    margin: 58px 0 0;
+}
+.change-names :nth-child(6) {
+    margin: 60px 0 0;
+}
+.change-fields-for-input {
+    width: 465px;
+}
+.change-fields-for-input :nth-child(3) :nth-child(4) {
+    margin-bottom: 5px;
+}
+// .change-fields :nth-child(1) {
+//     padding-top: 20px;
+// }
+.change-field {
+	width: 440px;
+    height: 55px;
+    background: white;
+    color: black;
+    outline: none;
+    border: none;
+    border: 1px solid #BBBBBB;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.change-field::placeholder {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: #BBBBBB;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.change-field-menu {
+    width: 440px;
+    height: 55px;
+    background: white;
+    color: black;
+    outline: none;
+    border: none;
+    border: 1px solid #BBBBBB;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.change-field-menu-icon {
+    position: absolute;
+    width: 12px;
+    top: 30px;
+    left: 430px;
+    cursor: pointer;
+}
+.change-field-menu-arrow {
+    position: relative;
+}
+.change-places-for-images {
+    display: flex;
+    justify-content: space-between;
+	width: 465px;
+	height: 50px;   
+    margin-bottom: 20px;
+}
+.change-ad-image {
+	width: 70px;
+	height: 50px;
+    background: #F5F6FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color:#BBBBBB;
+    line-height: 34px;
+    // background-image: url(../../img/product-image-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.delete-ad-button {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+    margin-top: 5px;
+}
+.delete-icon {
+	width: 25px;
+	height: 20px;
+    cursor: pointer;
+}
+// .delete-icon:hover .delete-text {
+//     border-bottom: 3px solid #686868;
+// }
+.delete-text {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 12px;
+	color: #686868;
+	letter-spacing: 2px;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+.delete-text:hover {
+    border-bottom: 3px solid #686868;
+}
+.change-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.save-button {
+    width: 210px;
+    height: 60px;
+    border: 1px solid #BBBBBB;
+    background: white;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.save-button:hover {
+    border: none;
+    background: #FF6B09;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cancel-button {
+    width: 210px;
+    height: 60px;
+    border: 1px solid #BBBBBB;
+    background: white;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.cancel-button:hover {
+    border: none;
+    background: #FF6B09;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+
+
+
