@@ -3,11 +3,10 @@ import img1 from '../../img/close-registration-icon.svg';
 import img2 from '../../img/google-icon.png';
 
 export default function Registration() {
-   return <registration>
-        		<div className="registration-block">
-					<div className='registration-opasity-all-width'></div>
-					<div className="registration-opasity">
-						<div className="registration-window">
+   return	<div className="registration-block">
+				<div className='registration-opasity-all-width'></div>
+				<div className="registration-opasity">
+					<div className="registration-window">
 						<input className='close-registration-btn' type='image' src={img1}/>
 						<div className='autorise-registration-info'>
 							<p className='autorise-google-info'>
@@ -26,13 +25,12 @@ export default function Registration() {
 								<input className="email-field" type="text" placeholder="E-mail"/>
 								<input className="password-field" type="text" placeholder="Password"/>
 							</label>
-				   		</form>
+						</form>
 						<form className='email-password-buttons' action="">
 							<button className='enter-button' type='button'>УВІЙТИ</button>
 							<button className='registration-button' type='button'>ЗАРЕЄСТРУВАТИСЬ</button>
 						</form>
-						</div>
 					</div>
-				</div>	
-     	 </registration>;
+				</div>
+			</div>	   	 
 }

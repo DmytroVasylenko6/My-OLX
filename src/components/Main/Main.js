@@ -29,8 +29,7 @@ import img16 from '../../img/product-image-15.svg';
 import img17 from '../../img/product-image-16.svg';
 
 export default function Main() {
-	return <main>
-				
+	return <div>
 				{/* ===== Part: on sale, various ===== */}
 				<div className='sliders-all-width'>
 					<div className='sliders'>
@@ -297,5 +296,5 @@ export default function Main() {
 						<div className="page-3">3</div>	
 					</div>
 				</div>
-         	</main>;
+         	</div>;
 }
